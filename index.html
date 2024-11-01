@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>To-Do List</h1>
+
+        <!-- Input untuk menambahkan tugas -->
+         <div class="input-container">
+            <input type="text" id="todoInput" placeholder="Tambahkan Tugas Baru...">
+            <button onclick="addTodo()">Tambah</button>
+         </div>
+
+         <!-- Daftar tugas -->
+          <ul id="todoList"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
